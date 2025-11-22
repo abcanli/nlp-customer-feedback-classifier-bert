@@ -32,26 +32,47 @@ The project is designed as a realistic, production-style ML workflow for Product
 
 nlp-customer-feedback-classifier-bert/
 ├── data/
+
 │ ├── raw/
+
 │ │ └── sample_raw_feedback.csv
+
 │ └── processed/
+
 ├── notebooks/
+
 │ └── 01_eda.ipynb
+
 ├── src/
+
 │ ├── config.py
+
 │ ├── preprocess.py
-│ ├── train_baseline.py
+
+│├── train_baseline.py
+
 │ ├── train_bert.py
+
 │ ├── evaluate.py
+
 │ └── explain.py
+
 ├── models/
+
 │ ├── baseline/
+
 │ └── bert/
+
 ├── outputs/
+
 │ ├── metrics/
+
 │ ├── plots/
+
 │ └── explainability/
+
 ├── requirements.txt
+
 └── README.md
 📊 Dataset
 
