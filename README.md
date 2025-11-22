@@ -74,6 +74,7 @@ nlp-customer-feedback-classifier-bert/
 ├── requirements.txt
 
 └── README.md
+
 📊 Dataset
 
 `data/raw/sample_raw_feedback.csv` contains synthetic SaaS feedback examples with:
@@ -90,7 +91,57 @@ This dataset can be easily replaced with real feedback from:
 - User reports  
 - App reviews  
 
----
+🧪 Synthetic Dataset
+
+The original project ships with a small toy CSV (60 rows).  
+To make the models more realistic and stable, this repo includes a simple **synthetic data generator** that expands the dataset to a larger, balanced corpus.
+
+To generate a synthetic SaaS feedback dataset (600 rows, 4 balanced classes):
+
+python src/generate_synthetic_feedback.py
+This will:
+
+Backup the original file to
+data/raw/sample_raw_feedback_original_backup.csv
+
+Create a new CSV at
+data/raw/sample_raw_feedback.csv
+with 150 examples per class:
+bug_report
+feature_request
+praise
+cancellation_risk
+
+🚀 Run the Full Pipeline & Streamlit Demo
+
+After generating (or updating) the dataset, you can run the full training pipeline:
+
+1) Preprocess data
+python src/preprocess.py
+
+2) Train baseline (TF-IDF + Logistic Regression)
+python src/train_baseline.py
+
+3) Train DistilBERT classifier
+python src/train_bert.py
+Once the models are trained, launch the interactive demo app:
+
+streamlit run app.py
+Then open the URL shown in the terminal (usually http://localhost:8501) and:
+
+Choose Baseline (TF-IDF + Logistic Regression) or DistilBERT
+
+Type a piece of SaaS customer feedback such as:
+
+“The app crashes when I try to export data.” → bug_report
+
+“It would be great if you added a dark mode.” → feature_request
+
+“We are considering cancelling because of frequent downtime.” → cancellation_risk
+
+“I love how smooth the interface is, great job!” → praise
+
+Click Classify to see the predicted label.
 
 🧪 Models
 
@@ -124,7 +175,6 @@ and the **fine-tuned DistilBERT model** used in this project:
 
 ⚙️ Setup & Installation
 
-```bash
 git clone https://github.com/abcanli/nlp-customer-feedback-classifier-bert.git
 cd nlp-customer-feedback-classifier-bert
 python -m venv venv
