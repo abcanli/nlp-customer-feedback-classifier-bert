@@ -1,0 +1,61 @@
+feedback_id,feedback_text,label
+1,"The app keeps crashing when I try to export my data. This is really frustrating and blocking my work.",bug_report
+2,"I love the new dashboard design! It's so much cleaner and easier to navigate than before.",praise
+3,"Can you add dark mode support? My eyes hurt after long sessions and I'd really appreciate this feature.",feature_request
+4,"I'm considering canceling my subscription. The price is too high for what I'm getting.",cancellation_risk
+5,"There's a bug in the reporting module - dates are showing incorrectly for timezone GMT+5.",bug_report
+6,"Your customer support team is amazing! They resolved my issue within 30 minutes.",praise
+7,"It would be great if you could integrate with Slack. All our team communication happens there.",feature_request
+8,"The service has been down three times this month. I'm losing confidence in your platform.",cancellation_risk
+9,"Login fails every time I use Safari browser. Works fine on Chrome though.",bug_report
+10,"Best tool I've used for project management. Worth every penny!",praise
+11,"Please add bulk editing capabilities. Having to edit items one by one is time-consuming.",feature_request
+12,"I found a better alternative that costs half the price. Probably switching next month.",cancellation_risk
+13,"The mobile app freezes on the dashboard screen. iPhone 14, iOS 17.2.",bug_report
+14,"Excellent product! Helped our team increase productivity by 40%.",praise
+15,"Would love to see API rate limits increased for enterprise plans.",feature_request
+16,"Not getting the ROI I expected. Might not renew when my contract ends.",cancellation_risk
+17,"Search function returns error 500 when using special characters.",bug_report
+18,"Your documentation is fantastic - clear, comprehensive, and easy to follow.",praise
+19,"Integration with Google Calendar would be a game changer for us.",feature_request
+20,"Too expensive compared to competitors. Thinking about downgrading to free tier.",cancellation_risk
+21,"Payment processing failed but still charged my card. Need urgent help.",bug_report
+22,"Impressed with the regular updates and new features you keep rolling out!",praise
+23,"Can we get a feature to schedule reports to be sent automatically?",feature_request
+24,"The recent price increase is making me reconsider. Looking at alternatives.",cancellation_risk
+25,"Export to CSV is broken - file downloads but contains no data.",bug_report
+26,"This tool has transformed how we work. Couldn't imagine going back!",praise
+27,"Please add two-factor authentication for better security.",feature_request
+28,"Customer support response times have gotten much worse lately. Very disappointed.",cancellation_risk
+29,"Notifications don't work on Android. Tried reinstalling but issue persists.",bug_report
+30,"The onboarding experience was smooth and intuitive. Great job!",praise
+31,"Would be awesome to have custom branding options for our client reports.",feature_request
+32,"I've been a customer for 3 years but the value isn't there anymore. Considering leaving.",cancellation_risk
+33,"Database connection timeout errors occurring randomly throughout the day.",bug_report
+34,"Your team went above and beyond to customize the solution for our needs!",praise
+35,"Requesting a webhook feature so we can automate our workflows better.",feature_request
+36,"Several features I need are only in higher tiers. Can't justify the cost.",cancellation_risk
+37,"File upload widget shows progress bar stuck at 0% but files do upload eventually.",bug_report
+38,"Fast, reliable, and great value. Highly recommend to anyone!",praise
+39,"Multi-language support would help us expand to international markets.",feature_request
+40,"Unhappy with recent changes. The old interface was better. May cancel soon.",cancellation_risk
+41,"Getting 'undefined' error in console when clicking the share button.",bug_report
+42,"Been using for 2 years and never had any issues. Stellar product!",praise
+43,"Keyboard shortcuts would really speed up my workflow. Please consider adding them.",feature_request
+44,"Your competitor just released features I've been requesting for months. Switching.",cancellation_risk
+45,"Password reset email never arrives. Checked spam folder too.",bug_report
+46,"Exceptional quality and reliability. You've set the bar high!",praise
+47,"Batch import from Excel would save us hours every week.",feature_request
+48,"Trial period convinced me this isn't worth it. Won't be converting to paid.",cancellation_risk
+49,"Charts don't render properly when there's more than 1000 data points.",bug_report
+50,"Your product is exactly what we needed. Perfect fit for our use case!",praise
+51,"Please add the ability to duplicate projects with all settings intact.",feature_request
+52,"I'm on the fence about renewing. Need to see more value in the next few months.",cancellation_risk
+53,"Memory leak in the desktop app causes it to slow down after a few hours.",bug_report
+54,"Customer service is top-notch. Always helpful and professional.",praise
+55,"SSO integration would make this perfect for our enterprise deployment.",feature_request
+56,"Considering switching to a competitor that offers better analytics.",cancellation_risk
+57,"Form validation accepts invalid email addresses. Security concern.",bug_report
+58,"This platform has exceeded all my expectations. Brilliant!",praise
+59,"Ability to archive old projects instead of deleting them would be helpful.",feature_request
+60,"Performance issues and bugs are piling up. My patience is running out.",cancellation_risk
