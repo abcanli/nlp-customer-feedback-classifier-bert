@@ -109,6 +109,15 @@ This dataset can be easily replaced with real feedback from:
 - Trained via HuggingFace Transformers  
 - Saved under `models/bert/`
 
+📊 Model Comparison
+
+Below is the performance comparison between the **TF-IDF + Logistic Regression baseline**  
+and the **fine-tuned DistilBERT model** used in this project:
+
+<p align="center">
+  <img src="outputs/plots/model_comparison.png" alt="Model Comparison" width="520">
+</p>
+
 ---
 
 ⚙️ Setup & Installation
