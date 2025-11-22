@@ -44,36 +44,67 @@ Works on CPU or GPU
 
 nlp-customer-feedback-classifier-bert/
 ├── data/
+
 │   ├── raw/
+
 │   │   └── sample_raw_feedback.csv
+
 │   └── processed/
+
 │       └── processed_feedback.pkl
 │
+
 ├── notebooks/
+
 │   └── 01_eda.ipynb
 │
+
 ├── src/
+
 │   ├── config.py
+
 │   ├── preprocess.py
+
 │   ├── train_baseline.py
+
 │   ├── train_bert.py
+
+
 │   ├── evaluate.py
+
 │   ├── explain.py
+
 │   └── generate_synthetic_feedback.py
+
 │
+
 ├── models/
+
 │   ├── baseline/
+
 │   └── bert/
+
 │
+
 ├── outputs/
+
 │   ├── metrics/
+
 │   ├── plots/
+
 │   │   └── model_comparison.png
+
+
 │   └── explainability/
+
 │
+
 ├── app.py
+
 ├── requirements.txt
+
 └── README.md
+
 
 📊 Dataset
 
@@ -197,5 +228,7 @@ Build a full Product Analytics dashboard
 👤 Author
 Ali Berk Canlı
 NLP/ML Analyst • Data Product Analyst
+
 🔗 LinkedIn: https://www.linkedin.com/in/aliberkcanlı
+
 🔗 GitHub: https://github.com/abcanli
