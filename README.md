@@ -158,3 +158,12 @@ Ali Berk Canlı
 NLP/ML Analyst • Data Product Analyst
 LinkedIn: https://www.linkedin.com/in/aliberkcanlı
 GitHub: https://github.com/abcanli
+
+📊 Model Comparison
+
+Below is the performance comparison between the **TF-IDF + Logistic Regression baseline**  
+and the **fine-tuned DistilBERT model** used in this project:
+
+<p align="center">
+  <img src="outputs/plots/model_comparison.png" alt="Model Comparison" width="520">
+</p>
