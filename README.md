@@ -115,9 +115,10 @@ Below is the performance comparison between the **TF-IDF + Logistic Regression b
 and the **fine-tuned DistilBERT model** used in this project:
 
 <p align="center">
-  <img src="outputs/plots/model_comparison.png" alt="Model Comparison" width="520">
+  <img src="https://raw.githubusercontent.com/abcanli/nlp-customer-feedback-classifier-bert/main/nlp-customer-feedback-classifier-bert/outputs/plots/model_comparison.png" width="550">
 </p>
-[https://raw.githubusercontent.com/abcanli/nlp-customer-feedback-classifier-bert/main/outputs/plots/model_comparison.png](https://github.com/abcanli/nlp-customer-feedback-classifier-bert/blob/main/nlp-customer-feedback-classifier-bert/outputs/plots/model_comparison.png)
+[[https://raw.githubusercontent.com/abcanli/nlp-customer-feedback-classifier-bert/main/outputs/plots/model_comparison.png](https://github.com/abcanli/nlp-customer-feedback-classifier-bert/blob/main/nlp-customer-feedback-classifier-bert/outputs/plots/model_comparison.png)](https://raw.githubusercontent.com/abcanli/nlp-customer-feedback-classifier-bert/main/nlp-customer-feedback-classifier-bert/outputs/plots/model_comparison.png
+)
 
 ---
 
