@@ -158,7 +158,3 @@ Ali Berk Canlı
 NLP/ML Analyst • Data Product Analyst
 LinkedIn: https://www.linkedin.com/in/aliberkcanlı
 GitHub: https://github.com/abcanli
-
-### 🔍 Visual Comparison
-
-![Model comparison](outputs/plots/model_comparison.png)
