@@ -117,6 +117,7 @@ and the **fine-tuned DistilBERT model** used in this project:
 <p align="center">
   <img src="outputs/plots/model_comparison.png" alt="Model Comparison" width="520">
 </p>
+https://raw.githubusercontent.com/abcanli/nlp-customer-feedback-classifier-bert/main/outputs/plots/model_comparison.png
 
 ---
 
